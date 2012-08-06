@@ -1,0 +1,14 @@
+{"provider":
+{"name":"rackspace"}, 
+{"security":{
+	"type":"token",
+	"httptype":"post",
+	"endpoint":"https://identity.api.rackspacecloud.com/v2.0/tokens",
+	"header":{"key":"Content-Type", "value":"application/json"},
+	"body":"{auth:{RAX-KSKEY:apiKeyCredentials:{username:cradbold, apiKey:d799ea61b7a28e9526e7c216e74e105b}}}",
+	"responsevar":{"name":"token", "path":"access/token", "element":"id"}}},
+{"listInstance":{
+	"httptype":"get",
+	"endpoint":"https://dfw.servers.api.rackspacecloud.com/v2/713310/servers/detail",
+	"header": {"key":"X-Auth-Token", "value":"%token%"}}}
+}
