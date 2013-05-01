@@ -32,10 +32,10 @@ import net.sf.json.JSONSerializer;
 
 
 public class CloudClient {
-	
-	private static final String ENDPOINT = "ec2.us-west-1.amazonaws.com".toLowerCase();
-	private static final String AWS_ACCESS_KEY_ID = "AKIAJY7XBVQE3HJY6PZQ";
-    private static final String AWS_SECRET_KEY = "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";
+
+    private static final String ENDPOINT = "ec2.us-west-1.amazonaws.com".toLowerCase();
+    private static final String AWS_ACCESS_KEY_ID = "BKIAJY7XBVQE3HJY6PZQ";
+    private static final String AWS_SECRET_KEY = "v8O/4S2DADa0Xb1jUX1GPihV7g47acaSBpkArSqB";
     private static final String UTF8_CHARSET = "UTF-8";
     private static final String HMAC_SHA256_ALGORITHM = "HmacSHA256";
     private static final String REQUEST_METHOD = "GET";
