@@ -5,7 +5,7 @@
 	"httptype":"post",
 	"endpoint":"https://identity.api.rackspacecloud.com/v2.0/tokens",
 	"header":{"key":"Content-Type", "value":"application/json"},
-	"body":"{auth:{RAX-KSKEY:apiKeyCredentials:{username:cradbold, apiKey:d799ea61b7a28e9526e7c216e74e105b}}}",
+	"body":"{auth:{RAX-KSKEY:apiKeyCredentials:{username:cradbold, apiKey:e600db52a8z37d2756e7c216e74e105b}}}",
 	"responsevar":{"name":"token", "path":"access/token", "element":"id"}}},
 {"listInstance":{
 	"httptype":"get",
